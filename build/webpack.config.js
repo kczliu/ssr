@@ -4,7 +4,7 @@
 const path = require('path')
 const HtmlWpackPlugin = require('html-webpack-plugin')
 const webpack  = require('webpack')
-var isDev = process.env.NODE_ENV = 'development'
+const isDev = process.env.NODE_ENV = 'development'
 
 const config = {
     entry:{
